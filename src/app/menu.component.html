@@ -1,0 +1,6 @@
+<ul class="main-menu">
+    <li *ngFor="let menuItem of menuItems" (click)="onSelect(menuItem)" class="lager-btn">
+        <!-- each hero goes here -->
+        <span class="ng-menu">{{menuItem}}</span>
+    </li>
+</ul>
